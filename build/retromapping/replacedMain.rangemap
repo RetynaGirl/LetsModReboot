@@ -1,0 +1,131 @@
+Symbol range map extraction starting
+Processing 7 files
+startProcessing "com\teknoserval\letsmodreboot\LetsModReboot.java" md5: 7b01508ef24dfdf8dec6fac13c5d69e2
+@|com\teknoserval\letsmodreboot\LetsModReboot.java|8|37|com.teknoserval.letsmodreboot|package|com.teknoserval.letsmodreboot|(file)
+Class Start: com.teknoserval.letsmodreboot.LetsModReboot
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|616|619|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|620|625|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|628|637|Reference|class|com.teknoserval.letsmodreboot.reference.Reference
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|638|644|MOD_ID|field|com.teknoserval.letsmodreboot.reference.Reference|MOD_ID
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|646|650|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|653|662|Reference|class|com.teknoserval.letsmodreboot.reference.Reference
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|663|671|MOD_NAME|field|com.teknoserval.letsmodreboot.reference.Reference|MOD_NAME
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|673|680|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|683|692|Reference|class|com.teknoserval.letsmodreboot.reference.Reference
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|693|700|VERSION|field|com.teknoserval.letsmodreboot.reference.Reference|VERSION
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|715|728|LetsModReboot|class|com.teknoserval.letsmodreboot.LetsModReboot
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|777|790|LetsModReboot|class|com.teknoserval.letsmodreboot.LetsModReboot
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|735|743|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|744|753|Reference|class|com.teknoserval.letsmodreboot.reference.Reference
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|754|760|MOD_ID|field|com.teknoserval.letsmodreboot.reference.Reference|MOD_ID
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|777|790|LetsModReboot|class|com.teknoserval.letsmodreboot.LetsModReboot
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|791|799|instance|field|com.teknoserval.letsmodreboot.LetsModReboot|instance|
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|917|923|IProxy|class|com.teknoserval.letsmodreboot.proxy.IProxy
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|805|815|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|816|826|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|829|838|Reference|class|com.teknoserval.letsmodreboot.reference.Reference
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|839|857|CLIENT_PROXY_CLASS|field|com.teknoserval.letsmodreboot.reference.Reference|CLIENT_PROXY_CLASS
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|859|869|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|872|881|Reference|class|com.teknoserval.letsmodreboot.reference.Reference
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|882|900|SERVER_PROXY_CLASS|field|com.teknoserval.letsmodreboot.reference.Reference|SERVER_PROXY_CLASS
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|917|923|IProxy|class|com.teknoserval.letsmodreboot.proxy.IProxy
+   @|com\teknoserval\letsmodreboot\LetsModReboot.java|924|929|proxy|field|com.teknoserval.letsmodreboot.LetsModReboot|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1001|1006|event|param|com.teknoserval.letsmodreboot.LetsModReboot|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|934|946|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|967|974|preInit|method|com.teknoserval.letsmodreboot.LetsModReboot|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|975|1000|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1015|1028|ConfigHandler|class|com.teknoserval.letsmodreboot.config.ConfigHandler
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1029|1033|init|method|com.teknoserval.letsmodreboot.config.ConfigHandler|init|(Ljava/io/File;)V
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1034|1039|event|param|com.teknoserval.letsmodreboot.LetsModReboot|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1040|1069|getSuggestedConfigurationFile|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getSuggestedConfigurationFile|()Ljava/io/File;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1142|1147|event|param|com.teknoserval.letsmodreboot.LetsModReboot|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1081|1093|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1114|1118|init|method|com.teknoserval.letsmodreboot.LetsModReboot|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1119|1141|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1227|1232|event|param|com.teknoserval.letsmodreboot.LetsModReboot|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1158|1170|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1191|1199|postInit|method|com.teknoserval.letsmodreboot.LetsModReboot|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1200|1226|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.teknoserval.letsmodreboot.LetsModReboot
+endProcessing "com\teknoserval\letsmodreboot\LetsModReboot.java"
+
+startProcessing "com\teknoserval\letsmodreboot\config\ConfigHandler.java" md5: e64c19680d3f4c13b116f274202b7b1b
+@|com\teknoserval\letsmodreboot\config\ConfigHandler.java|8|44|com.teknoserval.letsmodreboot.config|package|com.teknoserval.letsmodreboot.config|(file)
+Class Start: com.teknoserval.letsmodreboot.config.ConfigHandler
+   @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|138|151|ConfigHandler|class|com.teknoserval.letsmodreboot.config.ConfigHandler
+   Method Start: init(Ljava/io/File;)V
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|186|196|configFile|param|com.teknoserval.letsmodreboot.config.ConfigHandler|init|(Ljava/io/File;)V|configFile|0
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|176|180|init|method|com.teknoserval.letsmodreboot.config.ConfigHandler|init|(Ljava/io/File;)V
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|181|185|File|class|java.io.File
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|268|281|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|302|315|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|316|326|configFile|param|com.teknoserval.letsmodreboot.config.ConfigHandler|init|(Ljava/io/File;)V|configFile|0
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|383|387|load|method|net.minecraftforge.common.config.Configuration|load|()V
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|482|492|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|493|506|Configuration|class|net.minecraftforge.common.config.Configuration
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|507|523|CATEGORY_GENERAL|field|net.minecraftforge.common.config.Configuration|CATEGORY_GENERAL
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|600|609|Exception|class|java.lang.Exception
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|699|703|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: init(Ljava/io/File;)V
+Class End  : com.teknoserval.letsmodreboot.config.ConfigHandler
+endProcessing "com\teknoserval\letsmodreboot\config\ConfigHandler.java"
+
+startProcessing "com\teknoserval\letsmodreboot\proxy\ClientProxy.java" md5: e03b03f46e2a98832f5c16ae326f052c
+@|com\teknoserval\letsmodreboot\proxy\ClientProxy.java|8|43|com.teknoserval.letsmodreboot.proxy|package|com.teknoserval.letsmodreboot.proxy|(file)
+Class Start: com.teknoserval.letsmodreboot.proxy.ClientProxy
+   @|com\teknoserval\letsmodreboot\proxy\ClientProxy.java|59|70|ClientProxy|class|com.teknoserval.letsmodreboot.proxy.ClientProxy
+   @|com\teknoserval\letsmodreboot\proxy\ClientProxy.java|79|90|CommonProxy|class|com.teknoserval.letsmodreboot.proxy.CommonProxy
+Class End  : com.teknoserval.letsmodreboot.proxy.ClientProxy
+endProcessing "com\teknoserval\letsmodreboot\proxy\ClientProxy.java"
+
+startProcessing "com\teknoserval\letsmodreboot\proxy\CommonProxy.java" md5: 066ee19e21814855a2cfb7bc2ae96b5c
+@|com\teknoserval\letsmodreboot\proxy\CommonProxy.java|8|43|com.teknoserval.letsmodreboot.proxy|package|com.teknoserval.letsmodreboot.proxy|(file)
+Class Start: com.teknoserval.letsmodreboot.proxy.CommonProxy
+   @|com\teknoserval\letsmodreboot\proxy\CommonProxy.java|68|79|CommonProxy|class|com.teknoserval.letsmodreboot.proxy.CommonProxy
+   @|com\teknoserval\letsmodreboot\proxy\CommonProxy.java|91|97|IProxy|class|com.teknoserval.letsmodreboot.proxy.IProxy
+Class End  : com.teknoserval.letsmodreboot.proxy.CommonProxy
+endProcessing "com\teknoserval\letsmodreboot\proxy\CommonProxy.java"
+
+startProcessing "com\teknoserval\letsmodreboot\proxy\IProxy.java" md5: f41173792627d99e4e86730bc6eddae0
+@|com\teknoserval\letsmodreboot\proxy\IProxy.java|8|43|com.teknoserval.letsmodreboot.proxy|package|com.teknoserval.letsmodreboot.proxy|(file)
+Class Start: com.teknoserval.letsmodreboot.proxy.IProxy
+   @|com\teknoserval\letsmodreboot\proxy\IProxy.java|63|69|IProxy|class|com.teknoserval.letsmodreboot.proxy.IProxy
+Class End  : com.teknoserval.letsmodreboot.proxy.IProxy
+endProcessing "com\teknoserval\letsmodreboot\proxy\IProxy.java"
+
+startProcessing "com\teknoserval\letsmodreboot\proxy\ServerProxy.java" md5: 124ef44e1e8151ba634aa5121c49d75a
+@|com\teknoserval\letsmodreboot\proxy\ServerProxy.java|8|43|com.teknoserval.letsmodreboot.proxy|package|com.teknoserval.letsmodreboot.proxy|(file)
+Class Start: com.teknoserval.letsmodreboot.proxy.ServerProxy
+   @|com\teknoserval\letsmodreboot\proxy\ServerProxy.java|59|70|ServerProxy|class|com.teknoserval.letsmodreboot.proxy.ServerProxy
+   @|com\teknoserval\letsmodreboot\proxy\ServerProxy.java|79|90|CommonProxy|class|com.teknoserval.letsmodreboot.proxy.CommonProxy
+Class End  : com.teknoserval.letsmodreboot.proxy.ServerProxy
+endProcessing "com\teknoserval\letsmodreboot\proxy\ServerProxy.java"
+
+startProcessing "com\teknoserval\letsmodreboot\reference\Reference.java" md5: d9edfa426eb2b2e34500e34bd9c7f1ac
+@|com\teknoserval\letsmodreboot\reference\Reference.java|8|47|com.teknoserval.letsmodreboot.reference|package|com.teknoserval.letsmodreboot.reference|(file)
+Class Start: com.teknoserval.letsmodreboot.reference.Reference
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|63|72|Reference|class|com.teknoserval.letsmodreboot.reference.Reference
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|98|104|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|98|104|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|105|111|MOD_ID|field|com.teknoserval.letsmodreboot.reference.Reference|MOD_ID|
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|152|158|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|152|158|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|159|167|MOD_NAME|field|com.teknoserval.letsmodreboot.reference.Reference|MOD_NAME|
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|210|216|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|210|216|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|217|224|VERSION|field|com.teknoserval.letsmodreboot.reference.Reference|VERSION|
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|262|268|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|262|268|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|269|287|CLIENT_PROXY_CLASS|field|com.teknoserval.letsmodreboot.reference.Reference|CLIENT_PROXY_CLASS|
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|362|368|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|362|368|String|class|java.lang.String
+   @|com\teknoserval\letsmodreboot\reference\Reference.java|369|387|SERVER_PROXY_CLASS|field|com.teknoserval.letsmodreboot.reference.Reference|SERVER_PROXY_CLASS|
+Class End  : com.teknoserval.letsmodreboot.reference.Reference
+endProcessing "com\teknoserval\letsmodreboot\reference\Reference.java"
+
