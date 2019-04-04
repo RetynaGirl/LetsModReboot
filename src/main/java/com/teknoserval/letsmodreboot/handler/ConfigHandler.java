@@ -1,38 +1,56 @@
-package com.teknoserval.letsmodreboot.config;
+package com.teknoserval.letsmodreboot.handler;
 
 import java.io.File;
+import com.teknoserval.letsmodreboot.utility.LogHelper;
+import com.teknoserval.letsmodreboot.reference.Reference;
 
 import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.common.config.Property;
+import net.minecraftforge.fml.client.event.ConfigChangedEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class ConfigHandler {
-	
+
+	public static Configuration configuration;
+	public static boolean testValue = false;
+	public static int testInt = 69;
+
 	public static void init(File configFile) {
-		
-		//Create the configuration object from the given config file
-		Configuration configuration = new Configuration(configFile);
-		boolean configValue = false;
-		
-		try {
-			
-			// Load confg file
-			configuration.load();
-			
-			//Read in properties from configuration file
-			configValue = configuration.get(configuration.CATEGORY_GENERAL, "configValue", true, "This is an example of config value").getBoolean();
-			
-		} catch (Exception e) {
-			
-			//Log exception
-			
-		} finally {
-			
-			//Save config file
-			configuration.save();
-			
+
+		// Create the configuration object from the given config file
+		if (configuration == null) {
+
+			configuration = new Configuration(configFile);
+			loadConfiguration();
+
 		}
+
+	}
+
+	@SubscribeEvent
+	public void onConfigChangeEvent(ConfigChangedEvent event) {
+
+		if (event.getModID().equalsIgnoreCase(Reference.MOD_ID)) {
+
+			loadConfiguration();
+
+		}
+
+	}
+
+	private static void loadConfiguration() {
+
+		testValue = configuration.getBoolean("testValue", Configuration.CATEGORY_GENERAL, false,
+				"This is an example configuration value");
 		
-		System.out.println(configValue);
-		
+		testInt = configuration.getInt("testInt", Configuration.CATEGORY_GENERAL, 69, 0, 100, "this is a test int");
+				
+		if (configuration.hasChanged()) {
+
+			configuration.save();
+
+		}
+
 	}
 
 }

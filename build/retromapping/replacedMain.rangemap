@@ -35,8 +35,8 @@ Class Start: com.teknoserval.letsmodreboot.LetsModReboot
       @|com\teknoserval\letsmodreboot\LetsModReboot.java|934|946|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
       @|com\teknoserval\letsmodreboot\LetsModReboot.java|967|974|preInit|method|com.teknoserval.letsmodreboot.LetsModReboot|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
       @|com\teknoserval\letsmodreboot\LetsModReboot.java|975|1000|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1015|1028|ConfigHandler|class|com.teknoserval.letsmodreboot.config.ConfigHandler
-      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1029|1033|init|method|com.teknoserval.letsmodreboot.config.ConfigHandler|init|(Ljava/io/File;)V
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1015|1028|ConfigHandler|class|com.teknoserval.letsmodreboot.handler.ConfigHandler
+      @|com\teknoserval\letsmodreboot\LetsModReboot.java|1029|1033|init|method|com.teknoserval.letsmodreboot.handler.ConfigHandler|init|(Ljava/io/File;)V
       @|com\teknoserval\letsmodreboot\LetsModReboot.java|1034|1039|event|param|com.teknoserval.letsmodreboot.LetsModReboot|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
       @|com\teknoserval\letsmodreboot\LetsModReboot.java|1040|1069|getSuggestedConfigurationFile|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getSuggestedConfigurationFile|()Ljava/io/File;
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
@@ -57,15 +57,15 @@ endProcessing "com\teknoserval\letsmodreboot\LetsModReboot.java"
 
 startProcessing "com\teknoserval\letsmodreboot\config\ConfigHandler.java" md5: e64c19680d3f4c13b116f274202b7b1b
 @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|8|44|com.teknoserval.letsmodreboot.config|package|com.teknoserval.letsmodreboot.config|(file)
-Class Start: com.teknoserval.letsmodreboot.config.ConfigHandler
-   @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|138|151|ConfigHandler|class|com.teknoserval.letsmodreboot.config.ConfigHandler
+Class Start: com.teknoserval.letsmodreboot.handler.ConfigHandler
+   @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|138|151|ConfigHandler|class|com.teknoserval.letsmodreboot.handler.ConfigHandler
    Method Start: init(Ljava/io/File;)V
-      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|186|196|configFile|param|com.teknoserval.letsmodreboot.config.ConfigHandler|init|(Ljava/io/File;)V|configFile|0
-      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|176|180|init|method|com.teknoserval.letsmodreboot.config.ConfigHandler|init|(Ljava/io/File;)V
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|186|196|configFile|param|com.teknoserval.letsmodreboot.handler.ConfigHandler|init|(Ljava/io/File;)V|configFile|0
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|176|180|init|method|com.teknoserval.letsmodreboot.handler.ConfigHandler|init|(Ljava/io/File;)V
       @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|181|185|File|class|java.io.File
       @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|268|281|Configuration|class|net.minecraftforge.common.config.Configuration
       @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|302|315|Configuration|class|net.minecraftforge.common.config.Configuration
-      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|316|326|configFile|param|com.teknoserval.letsmodreboot.config.ConfigHandler|init|(Ljava/io/File;)V|configFile|0
+      @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|316|326|configFile|param|com.teknoserval.letsmodreboot.handler.ConfigHandler|init|(Ljava/io/File;)V|configFile|0
       @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|383|387|load|method|net.minecraftforge.common.config.Configuration|load|()V
       @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|482|492|getBoolean|method|net.minecraftforge.common.config.Configuration|getBoolean|(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Z
       @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|493|506|Configuration|class|net.minecraftforge.common.config.Configuration
@@ -73,7 +73,7 @@ Class Start: com.teknoserval.letsmodreboot.config.ConfigHandler
       @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|600|609|Exception|class|java.lang.Exception
       @|com\teknoserval\letsmodreboot\config\ConfigHandler.java|699|703|save|method|net.minecraftforge.common.config.Configuration|save|()V
    Method End: init(Ljava/io/File;)V
-Class End  : com.teknoserval.letsmodreboot.config.ConfigHandler
+Class End  : com.teknoserval.letsmodreboot.handler.ConfigHandler
 endProcessing "com\teknoserval\letsmodreboot\config\ConfigHandler.java"
 
 startProcessing "com\teknoserval\letsmodreboot\proxy\ClientProxy.java" md5: e03b03f46e2a98832f5c16ae326f052c

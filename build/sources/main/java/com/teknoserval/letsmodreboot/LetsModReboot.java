@@ -1,6 +1,6 @@
 package com.teknoserval.letsmodreboot;
 
-import com.teknoserval.letsmodreboot.config.ConfigHandler;
+import com.teknoserval.letsmodreboot.handler.ConfigHandler;
 import com.teknoserval.letsmodreboot.proxy.IProxy;
 import com.teknoserval.letsmodreboot.reference.Reference;
 
