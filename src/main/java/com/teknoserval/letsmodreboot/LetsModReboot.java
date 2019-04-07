@@ -1,10 +1,11 @@
 package com.teknoserval.letsmodreboot;
 
 import com.teknoserval.letsmodreboot.handler.ConfigHandler;
-import com.teknoserval.letsmodreboot.proxy.IProxy;
+import com.teknoserval.letsmodreboot.proxy.CommonProxy;
 import com.teknoserval.letsmodreboot.reference.Reference;
 import com.teknoserval.letsmodreboot.utility.LogHelper;
 
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -21,13 +22,13 @@ public class LetsModReboot {
 	public static LetsModReboot instance;
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-	public static IProxy proxy;
+	public static CommonProxy proxy;
 
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) {
 		
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
-		FMLCommonHandler.instance().bus().register(new ConfigHandler());
+		MinecraftForge.EVENT_BUS.register(new ConfigHandler());
 		
 		LogHelper.debug("Preinitialization Complete");
 

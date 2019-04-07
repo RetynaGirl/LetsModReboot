@@ -1,1 +1,7 @@
-item.mapleLeaf.name=Maple Leaf
+
+//Items
+item.maple_leaf.name=Maple Leaf
+item.green_poop.name=Green Poop
+
+//Blocks
+tile.green_poop_block.name=Green Poop Block
