@@ -1,6 +1,7 @@
 package com.teknoserval.letsmodreboot.item;
 
 import com.teknoserval.letsmodreboot.LetsModReboot;
+import com.teknoserval.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.teknoserval.letsmodreboot.init.ModItems;
 import com.teknoserval.letsmodreboot.utility.IHasModel;
 
@@ -15,7 +16,7 @@ public class ItemGreenPoop extends ItemLMRB implements IHasModel {
 
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.MISC);
+		setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 		
 		ModItems.ITEMS.add(this);
 		

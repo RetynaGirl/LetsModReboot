@@ -1,6 +1,7 @@
 package com.teknoserval.letsmodreboot.block;
 
 import com.teknoserval.letsmodreboot.LetsModReboot;
+import com.teknoserval.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.teknoserval.letsmodreboot.init.ModBlocks;
 import com.teknoserval.letsmodreboot.init.ModItems;
 import com.teknoserval.letsmodreboot.item.ItemLMRB;
@@ -22,7 +23,7 @@ public class BlockLMRB extends Block implements IHasModel {
 
 		setUnlocalizedName(name);
 		setRegistryName(name);
-*/		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+*/		setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 
 //		ModBlocks.BLOCKS.add(this);
 //		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
