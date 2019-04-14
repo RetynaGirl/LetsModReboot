@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",
+        "GGG",
+        "GGG"
+    ],
+    
+    "key":
+    {
+        "G":
+        {
+            "item": "letsmodreboot:green_poop"
+        }
+    },
+    
+    "result":
+    {
+        "item": "letsmodreboot:green_poop_block",
+        "count": 1
+    }
+}

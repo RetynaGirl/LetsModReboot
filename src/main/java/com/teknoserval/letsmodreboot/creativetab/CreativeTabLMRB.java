@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 
 public class CreativeTabLMRB {
 
-	public static final CreativeTabs LMRB_TAB = new CreativeTabs(Reference.MOD_ID) {
+	public static final CreativeTabs LMRB_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
 
 		@Override
 		public ItemStack getTabIconItem() {
@@ -17,12 +17,7 @@ public class CreativeTabLMRB {
 			return new ItemStack(ModItems.green_poop);
 		}
 		
-		@Override
-		public String getTranslatedTabLabel() {
-			
-			return "Let's Mod Reboot";
-			
-		}
+		
 
 	};
 

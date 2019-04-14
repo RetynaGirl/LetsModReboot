@@ -1,0 +1,22 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "letsmodreboot:green_poop_block"
+    },
+    
+    {
+      "item": "minecraft:apple"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "letsmodreboot:green_poop",
+        "count": 9
+    }
+}

@@ -5,3 +5,6 @@ item.green_poop.name=Green Poop
 
 //Blocks
 tile.green_poop_block.name=Green Poop Block
+
+//Creative Tabs
+itemGroup.letsmodreboot=Let's Mod Reboot

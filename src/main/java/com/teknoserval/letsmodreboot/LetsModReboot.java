@@ -1,12 +1,12 @@
 package com.teknoserval.letsmodreboot;
 
 import com.teknoserval.letsmodreboot.handler.ConfigHandler;
+import com.teknoserval.letsmodreboot.init.ModRecipes;
 import com.teknoserval.letsmodreboot.proxy.CommonProxy;
 import com.teknoserval.letsmodreboot.reference.Reference;
 import com.teknoserval.letsmodreboot.utility.LogHelper;
 
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -36,6 +36,8 @@ public class LetsModReboot {
 
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
+		
+		ModRecipes.init();
 		
 		LogHelper.debug("Initialization Complete");
 
