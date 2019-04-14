@@ -8,3 +8,8 @@ tile.green_poop_block.name=Green Poop Block
 
 //Creative Tabs
 itemGroup.letsmodreboot=Let's Mod Reboot
+
+//Keybindings
+keys.letsmodreboot.category=Let's Mod Reboot
+keys.letsmodreboot.charge=Charge
+keys.letsmodreboot.release=Release
